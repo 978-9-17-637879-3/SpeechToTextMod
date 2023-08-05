@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "speechtotext",
+  "name": "SpeechToText",
+  "description": "A minecraft mod that converts microphone audio into the minecraft chat.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["NineSevenEight"],
+  "credits": "mouse0w0 for the gradle.properties args that make setupDecompWorkspace functional",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
