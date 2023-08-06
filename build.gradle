@@ -7,6 +7,8 @@ buildscript {
             name = "forge"
             url = "http://files.minecraftforge.net/maven"
         }
+
+        mavenCentral()
     }
     dependencies {
         classpath 'net.minecraftforge.gradle:ForgeGradle:2.1-SNAPSHOT'
@@ -20,9 +22,12 @@ plugins {
     id "net.minecraftforge.gradle.forge" version "2.0.2"
 }
 */
-version = "1.0"
-group= "com.yourname.modid" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "modid"
+version = "0.0.1"
+group= "git.nineseveneight.speechtotext" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = "speechtotext"
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 minecraft {
     version = "1.8.9-11.15.1.2318-1.8.9"
@@ -42,7 +47,10 @@ dependencies {
     // or you may define them like so..
     //compile "some.group:artifact:version:classifier"
     //compile "some.group:artifact:version"
-      
+
+    implementation group: 'com.alphacephei', name: 'vosk', version: '0.3.45'
+    compile group: 'com.alphacephei', name: 'vosk', version: '0.3.45'
+
     // real examples
     //compile 'com.mod-buildcraft:buildcraft:6.0.8:dev'  // adds buildcraft to the dev env
     //compile 'com.googlecode.efficient-java-matrix-library:ejml:0.24' // adds ejml to the dev env

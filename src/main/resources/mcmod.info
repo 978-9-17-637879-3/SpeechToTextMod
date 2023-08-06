@@ -8,7 +8,7 @@
   "url": "",
   "updateUrl": "",
   "authorList": ["NineSevenEight"],
-  "credits": "mouse0w0 for the gradle.properties args that make setupDecompWorkspace functional",
+  "credits": "mouse0w0, for the gradle.properties args that make setupDecompWorkspace functional; Alpha Cephei, for their vosk transcription tool.",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

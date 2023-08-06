@@ -1,3 +1,6 @@
-A minecraft mod that converts microphone audio into the minecraft chat.
+## A Minecraft 1.8.9 mod that does speech-to-text conversion from microphone into chat.
 
-For version 1.8.9
+Heavy lifting is done by https://github.com/alphacep/vosk-api
+
+**All audio is processed locally.**
+In my opinion, the benefits derived from cloud processing are heavily outweighed by privacy concerns for the use case of this mod.
